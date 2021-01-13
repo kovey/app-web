@@ -28,4 +28,9 @@ class Bootstrap
                 return $redis;
             });
     }
+
+    public function __initDisableDefaultRouter($app)
+    {
+        $app->disableDefaultRouter();
+    }
 }

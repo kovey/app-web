@@ -15,7 +15,7 @@ use Kovey\Container\Event\Redis;
 use Kovey\Validator\Rules;
 use Kovey\Library\Util\Json;
 
-class Hello extends Controller
+class HelloController extends Controller
 {
     #[Module\Hello]
     private $hello;

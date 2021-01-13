@@ -222,16 +222,16 @@
         },
         {
             "name": "kovey/http-server",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/http-server.git",
-                "reference": "fed63acb769dafbb00932643e5940c858f890ca8"
+                "reference": "9a8b67b8827ed4186f4cee8a6efd1a6b03b37620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/http-server/zipball/fed63acb769dafbb00932643e5940c858f890ca8",
-                "reference": "fed63acb769dafbb00932643e5940c858f890ca8",
+                "url": "https://api.github.com/repos/kovey/http-server/zipball/9a8b67b8827ed4186f4cee8a6efd1a6b03b37620",
+                "reference": "9a8b67b8827ed4186f4cee8a6efd1a6b03b37620",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -279,7 +279,7 @@
                 "php",
                 "server"
             ],
-            "time": "2021-01-13T06:12:33+00:00"
+            "time": "2021-01-13T07:02:42+00:00"
         },
         {
             "name": "kovey/library",

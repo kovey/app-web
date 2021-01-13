@@ -26,7 +26,7 @@
         "kovey/sharding": "^1.0",
         "kovey/rpc-client": "^2.0",
         "kovey/http-server": "^1.0",
-        "kovey/logger": "^1.0"
+        "kovey/logger": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3"

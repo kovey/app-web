@@ -1,0 +1,34 @@
+{
+    "name": "kovey/app-web",
+    "type": "project",
+    "description": "The Kovey Framework",
+    "keywords": [
+        "framework",
+        "kovey",
+        "web-app",
+        "php"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Kovey",
+            "email": "kovey@vip.qq.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-swoole": "^4.6.0",
+        "kovey/library": "^2.0",
+        "kovey/db": "^1.0",
+        "kovey/redis": "^1.0",
+        "kovey/connection": "^1.0",
+        "kovey/sharding": "^1.0",
+        "kovey/rpc-client": "^2.0",
+        "kovey/http-server": "^1.0",
+        "kovey/logger": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}

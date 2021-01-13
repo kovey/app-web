@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+body {
+    min-height:100%;
+      font-size: .875rem;
+}
+main{padding-bottom:50px;}
+footer {
+    text-align: center;
+    height: 50px;
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+.ko-global-div-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*向左向上分别平移自身的一半*/
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 1s;
+}

@@ -18,4 +18,10 @@ class Hello
     {
         return 'router';
     }
+
+    public function useRedis($name)
+    {
+        $this->redis->set('kovey', $name);
+        return $this->redis->get('kovey');
+    }
 }

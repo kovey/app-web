@@ -46,11 +46,12 @@ class HelloController extends Controller
 
     #[Redis('master')]
     #[Router('/hello/redis', 'POST')]
+    #[Rules\Required('kovey')]
+    #[Rules\MaxLength('kovey', 10)]
     public function useRedisAction()
     {
         $this->disableView();
-        $this->redis->set('kovey', 'framework');
-        return $this->redis->get('kovey');
+        return $this->hello->useRedis($this->getRequest()->getPost('name'));
     }
 
     public function routerAction()

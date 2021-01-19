@@ -34,7 +34,7 @@ class HelloController extends Controller
     #[Rules\MaxLength('kovey', 10)]
     #[Rules\Required('email')]
     #[Rules\Email('email')]
-    #[Rules\MaxLength('kovey', 64)]
+    #[Rules\MaxLength('email', 64)]
     public function validAction()
     {
         $this->disableView();

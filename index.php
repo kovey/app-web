@@ -1,8 +1,8 @@
 <?php
 /**
- * @description
+ * @description web app entry file
  *
- * @package
+ * @package app
  *
  * @author kovey
  *

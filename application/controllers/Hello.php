@@ -20,7 +20,7 @@ class HelloController extends Controller
     #[Module\Hello]
     private $hello;
 
-    #[Router('/hello/world', 'GET')]
+    #[Router('/hello/world', Router::ROUTER_METHOD_GET)]
     public function worldAction()
     {
         $this->view->hello = 'hello';
@@ -28,7 +28,7 @@ class HelloController extends Controller
         $this->view->name = 'kovey framework';
     }
 
-    #[Router('/rule/valid', 'POST')]
+    #[Router('/rule/valid', Router::ROUTER_METHOD_POST)]
     #[Rules\Required('kovey')]
     #[Rules\MinLength('kovey', 1)]
     #[Rules\MaxLength('kovey', 10)]
@@ -45,7 +45,7 @@ class HelloController extends Controller
     }
 
     #[Redis('master')]
-    #[Router('/hello/redis', 'POST')]
+    #[Router('/hello/redis', Router::ROUTER_METHOD_POST)]
     #[Rules\Required('kovey')]
     #[Rules\MaxLength('kovey', 10)]
     public function useRedisAction()

@@ -170,16 +170,16 @@
         },
         {
             "name": "kovey/event",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/event.git",
-                "reference": "1b844e922353f22305e32e1bf62b77a84bad2945"
+                "reference": "62250ccc63eba1f135f505c6e15e03dd3ceb6a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/event/zipball/1b844e922353f22305e32e1bf62b77a84bad2945",
-                "reference": "1b844e922353f22305e32e1bf62b77a84bad2945",
+                "url": "https://api.github.com/repos/kovey/event/zipball/62250ccc63eba1f135f505c6e15e03dd3ceb6a38",
+                "reference": "62250ccc63eba1f135f505c6e15e03dd3ceb6a38",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -189,7 +189,7 @@
                 ]
             },
             "require": {
-                "php": ">=8.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -218,20 +218,20 @@
                 "kovey",
                 "php"
             ],
-            "time": "2021-01-06T05:54:32+00:00"
+            "time": "2021-01-20T02:14:15+00:00"
         },
         {
             "name": "kovey/http-server",
-            "version": "v2.1.1",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/http-server.git",
-                "reference": "9a8b67b8827ed4186f4cee8a6efd1a6b03b37620"
+                "reference": "2084989867ecb88540228acc534c8df7559fb7d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/http-server/zipball/9a8b67b8827ed4186f4cee8a6efd1a6b03b37620",
-                "reference": "9a8b67b8827ed4186f4cee8a6efd1a6b03b37620",
+                "url": "https://api.github.com/repos/kovey/http-server/zipball/2084989867ecb88540228acc534c8df7559fb7d3",
+                "reference": "2084989867ecb88540228acc534c8df7559fb7d3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -279,7 +279,7 @@
                 "php",
                 "server"
             ],
-            "time": "2021-01-13T07:02:42+00:00"
+            "time": "2021-02-01T09:49:48+00:00"
         },
         {
             "name": "kovey/library",
@@ -447,16 +447,16 @@
         },
         {
             "name": "kovey/process",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/process.git",
-                "reference": "75e4e93cbc36095d3ca766ce7b18f3fa2fb09d11"
+                "reference": "3320e4473c8b34c94aae11e52b13d05db5274bff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/process/zipball/75e4e93cbc36095d3ca766ce7b18f3fa2fb09d11",
-                "reference": "75e4e93cbc36095d3ca766ce7b18f3fa2fb09d11",
+                "url": "https://api.github.com/repos/kovey/process/zipball/3320e4473c8b34c94aae11e52b13d05db5274bff",
+                "reference": "3320e4473c8b34c94aae11e52b13d05db5274bff",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -498,7 +498,7 @@
                 "php",
                 "process"
             ],
-            "time": "2021-01-13T04:18:22+00:00"
+            "time": "2021-01-19T05:07:12+00:00"
         },
         {
             "name": "kovey/redis",
@@ -668,16 +668,16 @@
         },
         {
             "name": "kovey/validator",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/validator.git",
-                "reference": "c8522af45b8a368d698e52142d81496f07dee2b0"
+                "reference": "f90f08270633700cbff1bc3df8bf11df989c43da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/validator/zipball/c8522af45b8a368d698e52142d81496f07dee2b0",
-                "reference": "c8522af45b8a368d698e52142d81496f07dee2b0",
+                "url": "https://api.github.com/repos/kovey/validator/zipball/f90f08270633700cbff1bc3df8bf11df989c43da",
+                "reference": "f90f08270633700cbff1bc3df8bf11df989c43da",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -716,7 +716,7 @@
                 "php",
                 "validator"
             ],
-            "time": "2021-01-12T02:27:00+00:00"
+            "time": "2021-01-29T10:21:37+00:00"
         }
     ],
     "packages-dev": [
@@ -2825,12 +2825,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": "",
                 "mirrors": [

@@ -25,7 +25,7 @@
         "kovey/connection": "^1.1",
         "kovey/sharding": "^1.1",
         "kovey/rpc-client": "^2.0",
-        "kovey/http-server": "^2.0",
+        "kovey/http-server": "^3.0",
         "kovey/logger": "^2.0"
     },
     "require-dev": {

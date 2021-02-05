@@ -4,20 +4,76 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a94163ba06ebfc7b75042a9261816156",
+    "content-hash": "e6749d2f9aa4fd8946a31abe283191dc",
     "packages": [
         {
-            "name": "kovey/connection",
-            "version": "v1.1.0",
+            "name": "kovey/app",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kovey/connection.git",
-                "reference": "4d42304985781d14cca4e862fe8bf639f0cf55c0"
+                "url": "https://github.com/kovey/app.git",
+                "reference": "9ff8c9c7056134e85db8b6e330719611ee61b591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/connection/zipball/4d42304985781d14cca4e862fe8bf639f0cf55c0",
-                "reference": "4d42304985781d14cca4e862fe8bf639f0cf55c0",
+                "url": "https://api.github.com/repos/kovey/app/zipball/9ff8c9c7056134e85db8b6e330719611ee61b591",
+                "reference": "9ff8c9c7056134e85db8b6e330719611ee61b591",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "kovey/connection": "^1.1.1",
+                "kovey/container": "^1.0",
+                "kovey/event": "^1.0.2",
+                "kovey/process": "^1.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kovey\\App\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kovey",
+                    "email": "kovey@vip.qq.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Container Of The Kovey Framework",
+            "keywords": [
+                "app",
+                "framework",
+                "kovey",
+                "php"
+            ],
+            "time": "2021-02-05T06:41:49+00:00"
+        },
+        {
+            "name": "kovey/connection",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kovey/connection.git",
+                "reference": "65d12394a929a9dd0f90d55b3cf50f582317fc3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kovey/connection/zipball/65d12394a929a9dd0f90d55b3cf50f582317fc3e",
+                "reference": "65d12394a929a9dd0f90d55b3cf50f582317fc3e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -59,7 +115,7 @@
                 "php",
                 "pool"
             ],
-            "time": "2021-01-13T05:59:58+00:00"
+            "time": "2021-02-02T04:13:36+00:00"
         },
         {
             "name": "kovey/container",
@@ -170,16 +226,16 @@
         },
         {
             "name": "kovey/event",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/event.git",
-                "reference": "62250ccc63eba1f135f505c6e15e03dd3ceb6a38"
+                "reference": "7905b995ca04bc4839f5461daa23274265190795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/event/zipball/62250ccc63eba1f135f505c6e15e03dd3ceb6a38",
-                "reference": "62250ccc63eba1f135f505c6e15e03dd3ceb6a38",
+                "url": "https://api.github.com/repos/kovey/event/zipball/7905b995ca04bc4839f5461daa23274265190795",
+                "reference": "7905b995ca04bc4839f5461daa23274265190795",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -218,20 +274,20 @@
                 "kovey",
                 "php"
             ],
-            "time": "2021-01-20T02:14:15+00:00"
+            "time": "2021-02-02T04:14:11+00:00"
         },
         {
             "name": "kovey/http-server",
-            "version": "v2.1.3",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/http-server.git",
-                "reference": "2084989867ecb88540228acc534c8df7559fb7d3"
+                "reference": "337bd62c8a7dc0f4b6cf2323f3a24e06d0400216"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/http-server/zipball/2084989867ecb88540228acc534c8df7559fb7d3",
-                "reference": "2084989867ecb88540228acc534c8df7559fb7d3",
+                "url": "https://api.github.com/repos/kovey/http-server/zipball/337bd62c8a7dc0f4b6cf2323f3a24e06d0400216",
+                "reference": "337bd62c8a7dc0f4b6cf2323f3a24e06d0400216",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -242,12 +298,10 @@
             },
             "require": {
                 "ext-swoole": "^4.6.0",
-                "kovey/connection": "^1.1",
-                "kovey/container": "^1.0",
+                "kovey/app": "^1.0",
                 "kovey/library": "^2.1",
                 "kovey/logger": "^2.0",
                 "kovey/pipeline": "^1.1",
-                "kovey/process": "^1.0",
                 "kovey/validator": "^1.0",
                 "php": "^8.0"
             },
@@ -279,7 +333,7 @@
                 "php",
                 "server"
             ],
-            "time": "2021-02-01T09:49:48+00:00"
+            "time": "2021-02-05T06:42:15+00:00"
         },
         {
             "name": "kovey/library",
@@ -1587,16 +1641,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.1",
+            "version": "9.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e7bdf4085de85a825f4424eae52c99a1cec2f360"
+                "reference": "f661659747f2f87f9e72095bb207bceb0f151cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e7bdf4085de85a825f4424eae52c99a1cec2f360",
-                "reference": "e7bdf4085de85a825f4424eae52c99a1cec2f360",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f661659747f2f87f9e72095bb207bceb0f151cb4",
+                "reference": "f661659747f2f87f9e72095bb207bceb0f151cb4",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1688,7 +1742,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-17T07:42:25+00:00"
+            "time": "2021-02-02T14:45:58+00:00"
         },
         {
             "name": "sebastian/cli-parser",

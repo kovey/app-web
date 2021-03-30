@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45569bf42534c0e3d44c6808147a03ed",
+    "content-hash": "e6749d2f9aa4fd8946a31abe283191dc",
     "packages": [
         {
             "name": "kovey/app",
@@ -278,7 +278,7 @@
         },
         {
             "name": "kovey/http-server",
-            "version": "dev-master",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/http-server.git",
@@ -2937,9 +2937,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kovey/http-server": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -59,4 +59,12 @@ class HelloController extends Controller
         $this->disableView();
         return $this->hello->getRouter();
     }
+
+    #[Router('/hello/world', Router::ROUTER_METHOD_GET, '/test/index')]
+    public function viewAction()
+    {
+        $this->view->hello = 'test';
+        $this->view->world = 'index';
+        $this->view->name = 'view';
+    }
 }
